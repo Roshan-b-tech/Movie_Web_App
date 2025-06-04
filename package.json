@@ -1,0 +1,10 @@
+{
+    "name": "root",
+    "private": true,
+    "workspaces": [
+        "react_learning"
+    ],
+    "scripts": {
+        "build": "cd react_learning && npm install && npm run build"
+    }
+}
