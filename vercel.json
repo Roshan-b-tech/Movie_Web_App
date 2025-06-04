@@ -1,5 +1,5 @@
 {
-    "buildCommand": "rm -rf node_modules && cd react_learning && rm -rf node_modules && npm install && npm run build",
+    "buildCommand": "npm run build",
     "outputDirectory": "react_learning/dist",
     "framework": "vite",
     "rewrites": [
@@ -7,5 +7,6 @@
             "source": "/(.*)",
             "destination": "/index.html"
         }
-    ]
+    ],
+    "installCommand": "npm install"
 }

@@ -5,6 +5,7 @@
         "react_learning"
     ],
     "scripts": {
-        "build": "cd react_learning && npm install && npm run build"
+        "build": "cd react_learning && npm install && npm run build",
+        "install": "cd react_learning && npm install"
     }
 }
