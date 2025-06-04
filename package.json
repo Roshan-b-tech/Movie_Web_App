@@ -5,7 +5,7 @@
         "react_learning"
     ],
     "scripts": {
-        "build": "cd react_learning && npm install && npm run build",
-        "install": "cd react_learning && npm install"
+        "build": "cd react_learning && npm run build",
+        "install": "npm install --workspace=react_learning"
     }
 }
