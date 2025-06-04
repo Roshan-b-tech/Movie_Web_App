@@ -1,0 +1,5 @@
+{
+    "buildCommand": "cd react_learning && npm install && npm run build",
+    "outputDirectory": "react_learning/dist",
+    "framework": "vite"
+}
